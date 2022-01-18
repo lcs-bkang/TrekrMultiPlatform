@@ -18,6 +18,36 @@ struct LocationDetail: View {
             Image(location.heroPicture)
                 .resizable()
                 .scaledToFit()
+            
+            HStack {
+                
+                Text(location.country)
+                    .font(.title)
+                    .foregroundColor(.secondary)
+                    .multilineTextAlignment(.leading)
+                    .padding(.bottom)
+                
+                Spacer()
+
+            }
+            .padding(.horizontal)
+            
+            Text(location.description)
+                .padding(.horizontal)
+            
+            HStack {
+                
+                Text("Did you know?")
+                    .font(.title3)
+                    .bold()
+                    .padding(.vertical)
+                
+                Spacer()
+            }
+            .padding(.horizontal)
+            
+            Text(location.more)
+                .padding([.horizontal, .bottom])
         }
         .navigationTitle(location.name)
     }
