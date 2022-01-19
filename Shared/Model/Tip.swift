@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Tip: Decodable {
+struct Tip: Decodable, Identifiable {
+    var id = UUID()
     let text: String
     let children: [Tip]?
 }
