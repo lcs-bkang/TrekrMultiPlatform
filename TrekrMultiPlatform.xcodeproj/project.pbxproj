@@ -23,6 +23,10 @@
 		A66F255A27970A40009334CC /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F255827970A40009334CC /* LocationStore.swift */; };
 		A66F255C27970BD4009334CC /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F255B27970BD4009334CC /* LocationList.swift */; };
 		A66F255D27970BD4009334CC /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F255B27970BD4009334CC /* LocationList.swift */; };
+		A691427127985D1E00CA0007 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691427027985D1E00CA0007 /* WorldMap.swift */; };
+		A691427227985D1E00CA0007 /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691427027985D1E00CA0007 /* WorldMap.swift */; };
+		A691427427985D2B00CA0007 /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691427327985D2B00CA0007 /* TipsList.swift */; };
+		A691427527985D2B00CA0007 /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A691427327985D2B00CA0007 /* TipsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,8 @@
 		A66F25552797076B009334CC /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		A66F255827970A40009334CC /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		A66F255B27970BD4009334CC /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
+		A691427027985D1E00CA0007 /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
+		A691427327985D2B00CA0007 /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				A66F25552797076B009334CC /* LocationDetail.swift */,
 				A66F255B27970BD4009334CC /* LocationList.swift */,
+				A691427027985D1E00CA0007 /* WorldMap.swift */,
+				A691427327985D2B00CA0007 /* TipsList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A66F255927970A40009334CC /* LocationStore.swift in Sources */,
+				A691427127985D1E00CA0007 /* WorldMap.swift in Sources */,
 				A66F255327970605009334CC /* Location.swift in Sources */,
+				A691427427985D2B00CA0007 /* TipsList.swift in Sources */,
 				A66F253C279704C2009334CC /* TrekrMultiPlatformApp.swift in Sources */,
 				A66F25562797076B009334CC /* LocationDetail.swift in Sources */,
 				A66F255C27970BD4009334CC /* LocationList.swift in Sources */,
@@ -229,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A66F255A27970A40009334CC /* LocationStore.swift in Sources */,
+				A691427227985D1E00CA0007 /* WorldMap.swift in Sources */,
 				A66F255427970605009334CC /* Location.swift in Sources */,
+				A691427527985D2B00CA0007 /* TipsList.swift in Sources */,
 				A66F253D279704C2009334CC /* TrekrMultiPlatformApp.swift in Sources */,
 				A66F25572797076B009334CC /* LocationDetail.swift in Sources */,
 				A66F255D27970BD4009334CC /* LocationList.swift in Sources */,
