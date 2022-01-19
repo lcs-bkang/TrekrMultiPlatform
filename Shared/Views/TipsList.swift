@@ -22,6 +22,7 @@ struct TipsList: View {
                 Text(tip.text)
             }
         }
+        .navigationTitle("Tips")
     }
     
     // Initializer pulls tips data from JSON
