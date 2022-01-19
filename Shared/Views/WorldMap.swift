@@ -23,15 +23,19 @@ struct WorldMap: View {
             
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
                 
-                Image(location.country)
-                    .resizable()
-                    .cornerRadius(10)
-                    .frame(width: 60, height: 40)
-                    .shadow(radius: 2)
+                NavigationLink(destination: LocationDetail(location: location)) {
+                    
+                    
+                    Image(location.country)
+                        .resizable()
+                        .cornerRadius(10)
+                        .frame(width: 60, height: 40)
+                        .shadow(radius: 2)
+                }
             }
             
         }
-            .navigationTitle("Map")
+        .navigationTitle("Map")
     }
 }
 
