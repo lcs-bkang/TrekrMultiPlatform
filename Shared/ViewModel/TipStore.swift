@@ -25,3 +25,5 @@ class TipStore: ObservableObject {
         tips = try! JSONDecoder().decode([Tip].self, from: data)
     }
 }
+
+var tipsTestStore = TipStore()

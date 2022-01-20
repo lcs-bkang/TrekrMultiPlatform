@@ -9,10 +9,10 @@ import SwiftUI
 
 struct TipsList: View {
     
-    @ObservedObject var tips: TipStore
+    @StateObject var dataStore: TipStore
     
     var body: some View {
-        List(tips, children: \.children) { tip in
+        List(dataStore.tips, children: \.children) { tip in
             
             // If there are children on this particular tip...
             if tip.children != nil {
@@ -29,6 +29,6 @@ struct TipsList: View {
 
 struct TipsList_Previews: PreviewProvider {
     static var previews: some View {
-        TipsList()
+        TipsList(dataStore: tipsTestStore)
     }
 }
